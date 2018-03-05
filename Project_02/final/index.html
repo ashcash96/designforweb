@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>House Party</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div class="building">
+    <div class="window1"></div>
+    
+<div style="text-align:center" onmouseover="Play()" onmouseout="Pause()"> 
+    <video  loop
+           id="video1" class="vidone" width="150px" height="180px">
+            <source src="assets/artic.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <script type="text/javascript"> 
+var myVideo=document.getElementById("video1"); 
+
+function Pause()
+{ 
+  myVideo.pause(); 
+}
+function Play()
+{
+if (myVideo.paused) 
+  myVideo.play();     
+}    
+    
+</script> <script type="text/javascript"> 
+var myVideo=document.getElementById("video1"); 
+
+function Pause()
+{ 
+  myVideo.pause(); 
+}
+function Play()
+{
+if (myVideo.paused) 
+  myVideo.play();     
+}    
+    
+</script> 
+    
+     <div class="window2"></div>
+    <div class="window3"></div>
+       <video controls loop
+           class="window4" width="150px" height="180px">
+            <source src="assets/dad.mp4" type="video/mp4">
+        </video>
+     <div class="window5"></div>
+    <div class="window6"></div>
+    <div class="window7"></div>
+       <video controls loop
+           class="window8" width="150px" height="180px">
+            <source src="assets/redbone.mp4" type="video/mp4">
+        </video>
+    
+    
+    
+    </div>
+    
+<audio class="one" autoplay="autoplay" controls="controls">
+<source src="assets/sidewalk.mp3" type="audio/mpeg">  
+</audio>
+    
+<audio class="two" autoplay="autoplay" controls="controls" >
+    <source src="assets/police.mp3" type="audio/mpeg">
+</audio>
+    
+<audio class="three" loop="loop" autoplay="autoplay" controls="controls" >
+    <source src="assets/urban.mp3" type="audio/mpeg">
+</audio>
+    
+
+    
+</body>
+</html>

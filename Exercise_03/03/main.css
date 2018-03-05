@@ -1,0 +1,55 @@
+.light{
+    background-color:red;
+    border-radius:0;
+    width:100px;
+    height:100px;
+
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+    z-index:3;
+
+    margin:auto;
+    transition: border-radius 1s ease}
+
+.light:hover{border-radius:50%}
+
+.light1{
+    background-color:pink;
+    border-radius:0;
+    width:200px;
+    height:200px;
+
+
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+    z-index:0;
+
+    margin:auto;
+    transition: border-radius 2s ease}
+
+.light1:hover{border-radius:50%}
+
+.light2{
+    background-color:black;
+    border-radius:0;
+    width:400px;
+    height:400px;
+
+
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+    z-index:-5;
+
+    margin:auto;
+    transition: border-radius 4s ease}
+
+.light2:hover{border-radius:50%}

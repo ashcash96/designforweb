@@ -1,0 +1,136 @@
+body{background-image:url(assets/giphy.gif);
+    background-repeat:repeat;
+    background-size:cover;
+    
+}
+
+.building{
+    width:600px;
+    height:800px;
+    
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+    margin: auto;
+    position: absolute;
+    
+    background-image:url(assets/brick.jpg);
+    background-size:40%;
+    background-repeat: repeat;
+}
+
+.one{
+    position:absolute;
+    transform: rotate(90deg);
+    left:-40px;
+    top:150px;
+    }
+
+.two{
+    position:absolute;
+    transform: rotate(90deg);
+    left:-40px;
+    top:350px;
+
+       }
+
+.three{
+    position:absolute;
+    transform: rotate(90deg);
+    left:-40px;
+    top:550px;
+    }
+
+
+.vidone{
+width:150px;
+height:180px;
+position: absolute;
+left:40px;
+top:40px;
+background-color:black;
+}
+
+
+.window1{background-color: black;
+width:150px;
+height:180px;
+position: absolute;
+left:230px;
+top:40px;
+}
+
+.window1:hover{background-color: aliceblue}
+
+.window2{background-color: black;
+width:150px;
+height:180px;
+position: absolute;
+left:410px;
+top:40px;
+background-image: url(assets/People-Dancing-Silhouette-psd9849.png);
+background-size:180px;
+}
+
+.window2:hover{background-color: blueviolet;}
+
+.window3{background-color: black;
+width:150px;
+height:180px;
+position: absolute;
+left:40px;
+top:250px;
+}
+
+.window3:hover{background-color: crimson;}
+
+.window4{background-color: black;
+width:150px;
+height:180px;
+position: absolute;
+left:230px;
+top:250px;
+}
+
+.window5{background-color:black;
+width:150px;
+height:180px;
+position: absolute;
+left:410px;
+top:250px;
+background-image:url(assets/Gamer_guy.png)
+}
+
+.window5:hover{
+    background-color: lightskyblue;
+}
+.window6{background-color: black;
+width:150px;
+height:180px;
+position: absolute;
+left:40px;
+top:470px;
+}
+.window7{background-color:black;
+width:150px;
+height:180px;
+position: absolute;
+left:230px;
+top:470px;
+background-image: url(assets/consultancysilhouette1.png)
+}
+
+.window7:hover{background-color: bisque}
+
+.window8{background-color: black;
+width:150px;
+height:180px;
+position: absolute;
+left:410px;
+top:470px;
+}
+
+
+

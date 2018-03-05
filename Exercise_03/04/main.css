@@ -1,0 +1,88 @@
+.mom{top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+    margin: auto;
+
+width:500px;
+height:500px;
+    }
+
+.mom:hover{        
+animation: rotation 5s infinite;
+    }
+
+.kid{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+    position: absolute;
+    left:300px;
+    
+    
+animation: rotation 5s infinite
+  
+}
+
+.kid1{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+    transform: rotate(90deg);
+    
+    position: absolute;
+    left:500px;
+    top:210px;
+    
+    
+animation: rotation 5s infinite}
+
+.kid2{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+    transform: rotate(180deg);
+    
+    position: absolute;
+    top:410px;
+    left:300px;
+    
+    
+animation: rotation 5s infinite
+    
+}
+
+
+.kid3{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+    transform: rotate(270deg);
+    
+    position: absolute;
+    top:210px;
+    left:100px;
+    
+    
+animation: rotation 5s infinite
+}
+
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+

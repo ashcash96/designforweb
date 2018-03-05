@@ -1,0 +1,52 @@
+html{
+    background-image: url(assets/sky.gif)
+}
+
+
+
+
+.one{
+    width: 700px;
+    height: 700px;
+    background-image:url(assets/rustic__large.png);
+    background-color: darkred
+;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+
+.window{
+  width:150px;
+  height:200px;
+  background-color:black;
+  position: absolute;
+  top:50px;
+  left:50px;   
+    
+}
+
+.window1{
+  width:150px;
+  height:200px;
+  background-color:black;
+  position: absolute;
+  top:50px;
+  left:300px;   
+    
+}
+
+.window2{
+  width:150px;
+  height:200px;
+  background-color:black;
+  position: absolute;
+  top:50px;
+  left:500px;   
+    
+}

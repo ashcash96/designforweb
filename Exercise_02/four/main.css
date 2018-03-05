@@ -1,0 +1,33 @@
+.one {
+  height: 300px;
+  width: 400px;
+  background-color:darkseagreen;
+  animation: 
+    nudge 5s linear infinite alternate;
+  border-radius: 100%;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
