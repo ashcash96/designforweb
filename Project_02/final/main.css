@@ -1,12 +1,11 @@
-body{background-image:url(assets/giphy.gif);
-    background-repeat:repeat;
-    background-size:cover;
-    
+body{background-image:url(assets/1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover; 
 }
 
 .building{
     width:600px;
-    height:800px;
+    height:100%;
     
     top:0;
     bottom:0;
@@ -50,11 +49,14 @@ height:180px;
 position: absolute;
 left:40px;
 top:40px;
-background-color:black;
+background-image: url(assets/1369.gif);
+background-size:170%;
+background-repeat: no-repeat;
 }
 
 
-.window1{background-color: black;
+.window1{background-image: url(assets/smoke.gif);
+background-size:160%;
 width:150px;
 height:180px;
 position: absolute;
@@ -62,21 +64,20 @@ left:230px;
 top:40px;
 }
 
-.window1:hover{background-color: aliceblue}
-
 .window2{background-color: black;
 width:150px;
 height:180px;
 position: absolute;
 left:410px;
 top:40px;
-background-image: url(assets/People-Dancing-Silhouette-psd9849.png);
-background-size:180px;
+background-image: url(assets/sen.gif);
+background-size:170%;
+background-position:center;
 }
 
-.window2:hover{background-color: blueviolet;}
-
-.window3{background-color: black;
+.window3{
+background-image: url(assets/drink.gif);
+background-size:160%;
 width:150px;
 height:180px;
 position: absolute;
@@ -84,9 +85,10 @@ left:40px;
 top:250px;
 }
 
-.window3:hover{background-color: crimson;}
 
-.window4{background-color: black;
+.window4{background-image: url(assets/eh.gif);
+background-size:160%;
+background-position: center;
 width:150px;
 height:180px;
 position: absolute;
@@ -100,13 +102,13 @@ height:180px;
 position: absolute;
 left:410px;
 top:250px;
-background-image:url(assets/Gamer_guy.png)
+background-image:url(assets/1369.gif);
+    background-size:160%;
 }
 
-.window5:hover{
-    background-color: lightskyblue;
-}
-.window6{background-color: black;
+.window6{background-image: url(assets/ge.gif);
+background-size:190%;
+background-position: center;
 width:150px;
 height:180px;
 position: absolute;
@@ -119,12 +121,15 @@ height:180px;
 position: absolute;
 left:230px;
 top:470px;
-background-image: url(assets/consultancysilhouette1.png)
+background-image: url(assets/sleep.gif);
+background-position: center;
+background-size:170%;
 }
 
-.window7:hover{background-color: bisque}
 
-.window8{background-color: black;
+.window8{background-image: url(assets/george.gif);;
+background-size:160%;
+background-position: center;
 width:150px;
 height:180px;
 position: absolute;
@@ -132,5 +137,19 @@ left:410px;
 top:470px;
 }
 
+.four{
+position:absolute;
+    top:17px;
+    left:120px;
+    }
 
+.light{position: absolute;
+top:150px;}
+
+.img{width:100px;
+    position: absolute;
+    top:183px;
+    transform: rotate(180deg);
+    left:359px;
+}
 
