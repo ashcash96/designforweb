@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400+700);
+
+.test {
+  border-width: 0 10px;
+  border-color: black;
+  border-style: solid;
+  height: 50px;
+  border-radius: 10px/50%;
+}
+
+body { 
+  font-family: "Open Sans", sanserif;
+  margin: 2em;
+  background-color: bisque;
+}
+
+h6 {
+  font-size: .7em;
+  text-align: center;
+  margin: 1em 0;
+  color:gray;
+}
+
+h6 em { font-weight: bold; }
+
+li {
+  background-color: white;
+  line-height: 1.7;
+  max-width:25%;
+  margin-bottom: 1.5ex;
+  display:block;
+  text-align: right;
+  left:65%;
+  padding: 0.5ex 1em;
+  border-radius: 1.5ex/1em;
+  position: relative;
+  box-shadow: 0 15px 1px -12px rgba(0,0,0,0.05);
+ -webkit-animation:cssAnimation1  0s ease-in 5s forwards;
+}
+
+
+@-webkit-keyframes cssAnimation1 /* Safari and Chrome */
+{
+from {top: 0px; height:0px; width}
+to {top: 30px; width:25%}
+}

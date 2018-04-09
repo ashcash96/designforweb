@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hey! You there?</title>
+
+	  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+<h6><em>Today</em> &nbsp; <script>
+	var currentTime = new Date(),
+      hours = currentTime.getHours(),
+      minutes = currentTime.getMinutes();
+
+	if (minutes < 10) {
+	 minutes = "0" + minutes;
+  }
+
+	var suffix = "AM";
+	if (hours >= 12) {
+    suffix = "PM";
+    hours = hours - 12;
+	}
+	if (hours == 0) {
+	 hours = 12;
+	}
+
+	document.write(hours + ":" + minutes + " " + suffix)
+</script>
+    </h6>
+    
+    <div id="message">
+<div id="main-image"><audio autoplay>
+    <source src="ding.mp3" type="audio/mpeg">
+</audio></div>
+<div id="what"></div>
+<div id="uhh"></div>
+<div id="too"></div>
+<div id="omg"></div>
+<div id="hewhat"></div>
+<div id="i"></div>
+<div id="hate"></div>
+<div id="this"></div>
+<div id="so"></div>
+<div id="much"></div>
+<div id="man"></div>
+    </div>
+
+</body>
+</html>

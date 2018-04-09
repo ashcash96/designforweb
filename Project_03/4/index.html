@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox</title>
+
+	  <link rel="stylesheet" type="text/css" href="main.css">
+
+
+</head>
+<body>
+<h6><em>Today</em> &nbsp <script>
+	var currentTime = new Date(),
+      hours = currentTime.getHours(),
+      minutes = currentTime.getMinutes();
+
+	if (minutes < 10) {
+	 minutes = "0" + minutes;
+  }
+
+	var suffix = "AM";
+	if (hours >= 12) {
+    suffix = "PM";
+    hours = hours - 12;
+	}
+	if (hours == 0) {
+	 hours = 12;
+	}
+
+	document.write(hours + ":" + minutes + " " + suffix)
+</script>
+    </h6>
+    
+<ul class="chat">
+    <li>Hey</li>
+    <li>Whats up</li>
+    <li>You there?</li>
+    <li>???</li>
+</ul>
+
+</body>
+</html>

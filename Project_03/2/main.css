@@ -1,0 +1,71 @@
+#main-image{
+    position:absolute;
+    height: 0px;
+    width:0px;
+    right:500px;
+    overflow: hidden;
+    color:white;
+    background: red;
+  -webkit-animation:cssAnimation 0s ease-in 1s forwards;
+}
+
+#what{
+    position:absolute;
+    top:10px;
+    height:0px;
+    width:0px;
+    color:white;
+    overflow: hidden;
+    background:blue;
+  -webkit-animation:cssAnimation1  0s ease-in 5s forwards;
+}
+
+#uhh{
+    position:absolute;
+    top:30px;
+    right:500px;
+    height:0px;
+    width:0px;
+    overflow: hidden;
+    color:white;
+    background:green;
+  -webkit-animation:cssAnimation2  0s ease-in 15s forwards;
+}
+
+#too{
+    position:absolute;
+    top:50px;
+    color:white;
+    height:0px;
+    width:0px;
+    overflow: hidden;
+    background:yellow;
+  -webkit-animation:cssAnimation4  0s ease-in 25s forwards;
+}
+
+
+@-webkit-keyframes cssAnimation /* Safari and Chrome */
+{
+from {top: 0px; height:0px}
+to {top: 10px; 
+height:10px; width:40px}
+}
+
+
+@-webkit-keyframes cssAnimation1 /* Safari and Chrome */
+{
+from {top: 0px; height:0px}
+to {top: 30px;height:10px; width:40px}
+}
+
+@-webkit-keyframes cssAnimation2 /* Safari and Chrome */
+{
+from {top: 0px; height:0px}
+to {top: 50px;height:10px; width:40px}
+}
+
+@-webkit-keyframes cssAnimation4 /* Safari and Chrome */
+{
+from {top: 0px; height:0px}
+to {top: 70px;height:10px; width:40px}
+}
