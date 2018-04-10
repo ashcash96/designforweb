@@ -1,0 +1,89 @@
+body, html {
+    background-color:azure;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.highlight {
+    background: yellow; 
+}
+
+/* row 2*/
+
+.column-layout {
+    background-color:whitesmoke;
+    padding:1% 4%;
+    margin:0px auto;
+    float: right;
+    height:300px;
+    font-size:5em;
+    text-align: center;
+    }
+    
+/* row 3*/ 
+
+.call-outs-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /*
+    justify-content: flex-start;
+    justify-content: flex-right;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;*/
+
+    /* lign-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;*/
+    }
+    
+.call-out {
+    padding: 10px;
+    box-sizing: border-box;
+    flex-basis: 20%; /*this is the same as > width: 30%*/
+    /*width: 30%;*/
+    }
+
+.call-out:nth-child(1) {background-color: royalblue;}
+.call-out:nth-child(2) {background-color: royalblue;}
+.call-out:nth-child(3) {background-color: royalblue;}
+.call-out:nth-child(4) {background-color: royalblue;}
+.call-out:nth-child(5) {background-color: royalblue;}
+.call-out:nth-child(6) {background-color: royalblue;}
+.call-out:nth-child(7) {background-color: royalblue;}
+.call-out:nth-child(8) {background-color: royalblue;}
+.call-out:nth-child(9) {background-color: royalblue;}
+.call-out:nth-child(10) {background-color: royalblue;}
+.call-out:nth-child(11) {background-color: royalblue;}
+.call-out:nth-child(12) {background-color: royalblue;}
+.call-out:nth-child(13) {background-color: royalblue;}
+.call-out:nth-child(14) {background-color: royalblue;}
+.call-out:nth-child(15) {background-color: royalblue;}
+.call-out:nth-child(16) {background-color: royalblue;}
+.call-out:nth-child(17) {background-color: royalblue;}
+.call-out:nth-child(18) {background-color: royalblue;}
+.call-out:nth-child(19) {background-color: royalblue;}
+.call-out:nth-child(20) {background-color: royalblue;}
+.call-out:nth-child(21) {background-color: royalblue;}
+.call-out:nth-child(22) {background-color: royalblue;}
+.call-out:nth-child(23) {background-color: royalblue;}
+.call-out:nth-child(24) {background-color: royalblue;}
+.call-out:nth-child(25) {background-color: royalblue;}
+.call-out:nth-child(26) {background-color: royalblue;}
+.call-out:nth-child(27) {background-color: royalblue;}
+.call-out:nth-child(28) {background-color: royalblue;}
+.call-out:nth-child(29) {background-color: royalblue;}
+.call-out:nth-child(30) {background-color: royalblue;}
+
+
+
+
+@media (min-width: 900px) {
+    .call-outs-container {
+    display: flex;
+        }    
+    }

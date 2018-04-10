@@ -1,0 +1,30 @@
+body{background-color:midnightblue}
+
+.floor{
+    background-color: grey;
+    height:10px;
+    width:100%;
+    position: absolute;
+    top:75%;   
+}
+
+#myBtn{
+    height:100px;
+    width:100px;
+    background-color:aliceblue;
+    border-radius:50px;
+    
+}
+
+#person{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-color:black;
+    top:40%;
+     font-size: 34px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    float:left;
+}

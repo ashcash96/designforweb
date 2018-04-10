@@ -1,0 +1,54 @@
+#box{background-color:saddlebrown;
+    width: 420px;
+    height: 420px;
+    position:relative;
+  margin: auto;
+  right: 0;
+  left: 0;
+    }
+
+.tape{
+    background-color:burlywood;
+    height:90px;
+    width:60px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;}
+
+#ball {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #FF5722;
+    position: absolute;
+    top:130px;
+   margin: auto;
+   right: 0;
+   z-index:-1;
+   left: 0;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0,90px, 0); }
+}
+
+/* Prefix Support */
+ball {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  from { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+  to   { -webkit-transform: translate3d(0, 100px, 0); transform: translate3d(0, 100px, 0); }
+}

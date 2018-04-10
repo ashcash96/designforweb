@@ -1,0 +1,51 @@
+body{
+    background-color:black;
+}
+.eyes {
+  margin:auto;
+  width: 400px;
+  height: 400px;
+  border: solid 1px #000;
+  border-radius:  75% 15%;
+  position:absolute;
+  transform: rotate(45deg);
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color:palegoldenrod;
+  border-color: bisque;
+}
+
+
+.eye {
+    margin:auto;
+  width: 400px;
+  height: 400px;
+  border: solid 1px #000;
+  border-radius:  75% 15%;
+  position:absolute;
+  transform: rotate(45deg);
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color:white;
+  border-color:pink;
+  border-width:15px;
+
+}
+.pup {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: solid 1px #000;
+  border-radius: 50%;
+  border-width:50px;
+  margin: auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: aqua;
+}
