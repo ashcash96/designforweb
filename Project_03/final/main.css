@@ -21,7 +21,7 @@ h6 em { font-weight: bold;
   right: 0;
   left: 0;
     top:100px;
-    width:70%;
+    width:100%;
     position: absolute;
     }
 
@@ -40,7 +40,7 @@ h6 em { font-weight: bold;
   margin-top:40px;
   overflow: hidden;
   border-radius: 1em/1em;
-  -webkit-animation:cssAnimation1  0s ease-in 30s forwards;
+  -webkit-animation:cssAnimation1  0s ease-in 5s forwards;
 }
 
 #uhh{
@@ -50,9 +50,9 @@ background-color:darkgray;
   margin-left:100%;
   overflow: hidden;
   float:right;
-  margin-right:5%;
+  margin-right:0%;
   border-radius: 1em/1em;
-  -webkit-animation:cssAnimation2  0s ease-in 90s forwards;
+  -webkit-animation:cssAnimation2  0s ease-in 20s forwards;
 }
 
 #too{
@@ -60,19 +60,15 @@ background-color:dodgerblue;
   margin-top:40px;
   overflow: hidden;
   border-radius: 1em/1em;
-  -webkit-animation:cssAnimation4  0s ease-in 120s forwards;
+  -webkit-animation:cssAnimation4  0s ease-in 25s forwards;
 }
 
 #omg{
-background-color:darkgray;
+background-color:dodgerblue;
   margin-top:40px;
-  margin-bottom:40px;
-  margin-left:100%;
   overflow: hidden;
-  float:right;
-  margin-right:5%;
   border-radius: 1em/1em;
-  -webkit-animation:cssAnimation5  0s ease-in 180s forwards;
+  -webkit-animation:cssAnimation5  0s ease-in 30s forwards;
 }
 
 #hewhat{
@@ -80,19 +76,15 @@ background-color:dodgerblue;
   margin-top:40px;
   overflow: hidden;
   border-radius: 1em/1em;
-  -webkit-animation:cssAnimation6  0s ease-in 230s forwards;
+  -webkit-animation:cssAnimation6  0s ease-in 40s forwards;
 }
 
 #i{
-background-color:darkgray;
+background-color:dodgerblue;
   margin-top:40px;
-  margin-bottom:40px;
-  margin-left:100%;
   overflow: hidden;
-  float:right;
-  margin-right:5%;
   border-radius: 1em/1em;
-  -webkit-animation:cssAnimation7  0s ease-in 290s forwards;
+  -webkit-animation:cssAnimation7  0s ease-in 45s forwards;
 }
 
 #hate{
@@ -100,19 +92,15 @@ background-color:dodgerblue;
   margin-top:40px;
   overflow: hidden;
   border-radius: 1em/1em;
-  -webkit-animation:cssAnimation8  0s ease-in 320s forwards;
+  -webkit-animation:cssAnimation8  0s ease-in 50s forwards;
 }
 
 #this{
-background-color:darkgray;
+background-color:dodgerblue;
   margin-top:40px;
-  margin-bottom:40px;
-  margin-left:100%;
   overflow: hidden;
-  float:right;
-  margin-right:5%;
   border-radius: 1em/1em;
-  -webkit-animation:cssAnimation9  0s ease-in 480s forwards;
+  -webkit-animation:cssAnimation9  0s ease-in 55s forwards;
 }
 
 #so{
@@ -120,28 +108,19 @@ background-color:dodgerblue;
   margin-top:40px;
   overflow: hidden;
   border-radius: 1em/1em;
-  -webkit-animation:cssAnimation10  0s ease-in 510s forwards;
+  -webkit-animation:cssAnimation10  0s ease-in 60s forwards;
 }
 
-#much{
+#man{
 background-color:darkgray;
   margin-top:40px;
   margin-bottom:40px;
   margin-left:100%;
   overflow: hidden;
   float:right;
-  margin-right:5%;
+  margin-right:0%;
   border-radius: 1em/1em;
-  -webkit-animation:cssAnimation11  0s ease-in 570s forwards;
-}
-
-
-#man{
-background-color:dodgerblue;
-  margin-top:40px;
-  overflow: hidden;
-  border-radius: 1em/1em;
-  -webkit-animation:cssAnimation12  0s ease-in 600s forwards;
+  -webkit-animation:cssAnimation11  0s ease-in 95s forwards;
 }
 
 
@@ -170,55 +149,55 @@ to {top: 80px; height:50px;
 @-webkit-keyframes cssAnimation4 /* Safari and Chrome */
 {
 from {top: 0px; width:0px; height:0px;}
-to {top: 130px; height:50px;
-  width:300px;}
+to {top: 130px; height:60px;
+  width:350px;}
 }
 
 @-webkit-keyframes cssAnimation5 /* Safari and Chrome */
 {
 from {top: 0px; width:0px; height:0px;}
-to {top: 180px; height:50px;
-  width:300px;}
+to {top: 180px; height:80px;
+  width:350px;}
 }
 
 @-webkit-keyframes cssAnimation6 /* Safari and Chrome */
 {
 from {top: 0px; width:0px; height:0px;}
-to {top: 230px; height:50px;
-  width:300px;}
+to {top: 230px; height:200px;
+  width:350px;}
 }
 
 @-webkit-keyframes cssAnimation7 /* Safari and Chrome */
 {
 from {top: 0px; width:0px; height:0px;}
-to {top: 280px; height:50px;
-  width:300px;}
+to {top: 280px; height:350px;
+  width:400px;}
 }
 
 @-webkit-keyframes cssAnimation8 /* Safari and Chrome */
 {
 from {top: 0px; width:0px; height:0px;}
-to {top: 330px; height:50px;
-  width:300px;}
+to {top: 330px; height:500px;
+  width:600px;}
 }
 
 @-webkit-keyframes cssAnimation9 /* Safari and Chrome */
 {
 from {top: 0px; width:0px; height:0px;}
-to {top: 380px; height:50px;
-  width:300px;}
+to {top: 380px; height:1000px;
+  width:600px;}
 }
 
 @-webkit-keyframes cssAnimation10 /* Safari and Chrome */
 {
 from {top: 0px; width:0px; height:0px;}
-to {top: 430px; height:50px;
-  width:300px;}
+to {top: 430px; height:2000px;
+  width:600px;}
 }
 
-@-webkit-keyframes cssAnimation10 /* Safari and Chrome */
+@-webkit-keyframes cssAnimation11 /* Safari and Chrome */
 {
 from {top: 0px; width:0px; height:0px;}
 to {top: 480px; height:50px;
-  width:300px;}
+  width:100px;}
 }
