@@ -1,0 +1,210 @@
+body{background-color:	#f0f8ff;
+ font-family: helvetica, arial sans-serif;
+	font-style: bold uppercase;
+	text-align: center;
+    font-size: 10vw; 
+    line-height: 99%;
+}
+
+.sun{width:200px;
+    height:200px;
+    background-color:#ffc125;
+    border-radius:300px;
+    z-index:-1;
+    position: absolute;
+    left:0;
+right:0;
+margin: auto;}
+
+#one {
+		display: block;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+body{background-color:#edcf8e;}
+    
+.sun{top:100px;}
+    
+#one {
+		display: none;
+	}
+
+	#two {
+		display: block;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+body{background-color:#dec4a1;}
+    
+ .sun{top:200px;}
+
+
+	#one {
+		display: none;
+
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: block;
+	}
+
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 600px) {
+body{background-color:#d0aba0;}
+ .sun{top:300px;}
+#one {
+		display:none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display:block;
+	}
+
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: none;
+	}
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+    body{background-color:#c28cae;}
+ .sun{top:400px;}
+    
+    
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+
+	}
+	#five {
+		display: block;
+	}
+
+	#six {
+		display: none;
+	}
+
+	
+}
+
+
+@media screen and (max-width: 320px) {
+body{background-color:#ba7ba1;}
+ .sun{top:500px;}
+    
+
+	#one {
+		display: none;
+
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display:none;
+
+	}
+	#five {
+		display: none;
+	}
+
+	#six {
+		display: block;
+	}
+
+}
+
+

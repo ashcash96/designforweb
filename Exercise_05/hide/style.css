@@ -1,0 +1,17 @@
+body{background-image: url(maxresdefault.jpg);
+    background-repeat: no-repeat;}
+
+p{font-size:6em;
+color:yellow;}
+
+img{height:500px;
+    right:1px;
+    position: absolute}
+
+.burg{background-image: url(unnamed.png);
+    height:100px;
+    width:100px;
+    position: absolute;
+    left:600px;
+    background-size: contain;
+    background-repeat: no-repeat;}

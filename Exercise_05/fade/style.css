@@ -1,0 +1,36 @@
+.plate{top:0;
+    bottom:0;
+    right:0;
+    left:0;
+margin: auto;
+width:700px;
+height:700px;
+border-radius:50%;
+position: absolute;
+border-style: solid;
+border-width:thin;}
+
+.inside{top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-image: url(yum.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+margin: auto;
+width:90%;
+height:90%;
+border-radius:50%;
+position: absolute;
+border-style: solid;
+border-width:thin;}
+
+.utinsel{background-image:url(fork.png);
+        height:700px;
+        width:700px;
+        background-repeat: no-repeat;
+        background-size:contain;
+    position:absolute;
+        right:1px;
+        top:150px;}

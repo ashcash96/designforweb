@@ -1,0 +1,50 @@
+body{ background: white;
+animation: mymove 10s infinite;}
+
+@-webkit-keyframes mymove {
+    25%{background-color: skyblue;}
+    50% {background-color: blueviolet}
+    100%{background-color:white;}
+}
+
+.evry{top:10%;
+bottom:10%;
+left:10%;
+right:10%;
+position:absolute}
+
+#assign{
+position:absolute;
+display: inline-flex;
+height:600px;
+width:50%;
+}
+
+.content{background-color: aqua;border:10px;border-color: aqua;
+height:100%;
+width:20%;
+margin:0% 5% 0% 5%}
+
+.content:hover{width:100%;
+height:100%;}
+
+.items {
+        height:600px;
+        width:50%;
+        float:right;
+        position:absolute;
+        left: 50%;
+          display: flex;
+  flex-flow: column wrap;
+  align-items:center;
+}
+.items .item {
+	 width: 15%;
+  height: 15%;
+  background: red;
+  color:blue;
+  margin:0 0 5% 0;
+}
+
+.items .item:hover{height:30%;
+width: 30%}
