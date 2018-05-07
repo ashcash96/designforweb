@@ -5,7 +5,17 @@
         </script>
         <link rel="stylesheet" type="text/css" href="style.css"/>
         <script type="text/javascript" src="script.js"></script>
+        <script>
+$(document).ready(function(){
+    $("p").hover(function(){
+        $(this).css("background-color", "black");
+        }, function(){
+        $(this).css("background-color", "red");
+    });
+});
+</script>
 	</head>
 	<body>
+    <p>Damn</p>
     </body>
 </html>

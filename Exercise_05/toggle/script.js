@@ -1,2 +1,4 @@
-$(document).ready(function() {    //pauses all actions until the page is loaded
+$(document).ready(function() {   $('button').click(function() {
+  $('div').toggle();
+});
   });

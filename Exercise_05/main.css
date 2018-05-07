@@ -9,12 +9,6 @@ animation: mymove 10s infinite;}
     100%{background-color:white;}
 }
 
-.evry{top:10%;
-bottom:10%;
-left:10%;
-right:10%;
-position:absolute}
-
 #assign{
 position:absolute;
 display: inline-flex;
@@ -32,25 +26,3 @@ text-align: center;
 
 .content:hover{width:100%;
 height:100%;}
-
-.items {
-        height:600px;
-        width:50%;
-        float:right;
-        position:absolute;
-        left:50%;
-          display: flex;
-  flex-flow: column wrap;
-}
-.items .item {
-	 width: 25%;
-  height: 25%;
-  background-color: cadetblue;
-  color:blue;
-  d
-  padding:10px;
-  margin:0 1% 5% 0;
-}
-
-.items .item:hover{height:30%;
-width: 30%}

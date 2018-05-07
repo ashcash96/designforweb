@@ -1,0 +1,38 @@
+button{height:400px;width:400px;
+background-color:red;
+font-size:5em;
+border-radius:50%;
+border-width:10px;
+bottom:1px;right:1px;position: absolute}
+
+.car{
+    height:100px;
+    width:300px;
+    background-image:url(car.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:50px;
+    animation:crash 10s
+}
+
+.car2{ height:200px;
+    width:300px;
+    background-image:url(car2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-20px;
+    right:10px;
+    animation:crash1 10s
+}
+
+@keyframes crash{
+    from{left:0px}
+    to{left:600px}
+}
+
+@keyframes crash1{
+    from{right:10px}
+    to{right:600px}
+}

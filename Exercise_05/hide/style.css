@@ -1,5 +1,6 @@
 body{background-image: url(maxresdefault.jpg);
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+background-color:cadetblue;background-size: cover}
 
 p{font-size:6em;
 color:yellow;}
@@ -9,8 +10,8 @@ img{height:500px;
     position: absolute}
 
 .burg{background-image: url(unnamed.png);
-    height:100px;
-    width:100px;
+    height:300px;
+    width:300px;
     position: absolute;
     left:600px;
     background-size: contain;

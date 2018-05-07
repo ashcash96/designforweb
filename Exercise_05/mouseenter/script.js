@@ -1,2 +1,8 @@
-$(document).ready(function() {    //pauses all actions until the page is loaded
+$(document).ready(function() {   $('.red-circle').mouseenter(function() {
+     $('.blue-square').fadeOut();
+});
+
+$('.red-circle').mouseleave(function() {
+     $('.blue-square').fadeIn();
+});
   });

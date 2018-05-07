@@ -4,8 +4,16 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
         </script>
         <link rel="stylesheet" type="text/css" href="style.css"/>
-        <script type="text/javascript" src="script.js"></script>
-       
+       <script>
+$(document).ready(function(){
+    $(".burg").on("click", function(){
+        $(this).hide();
+    });
+      $("img").click(function(){
+        $(".burg").show();
+    });
+});
+</script>
 	</head>
 	<body>
     <p>Swipper no Swipping!</p>
