@@ -1,6 +1,6 @@
-body{background-image:url(assets/1.jpg);
-    background-repeat:no-repeat;
-    background-size:cover; 
+body{background-image:url(assets/5526.jpg);
+    background-repeat:repeat;
+    background-size:50%; 
 }
 
 .building{
@@ -15,8 +15,8 @@ body{background-image:url(assets/1.jpg);
     margin: auto;
     position: absolute;
     
-    background-image:url(assets/brick.jpg);
-    background-size:40%;
+    background-image:url(assets/brick-wall-real-not-facade-was-built-my-studio-set-was-put-together-nice-random-pattern-34356057.jpg);
+    background-size:60%;
     background-repeat: repeat;
 }
 

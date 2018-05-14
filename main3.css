@@ -1,6 +1,9 @@
 body{ background: white;
-animation: mymove 10s infinite;}
+animation: mymove 20s infinite;}
 
+.name{font-family: sans-serif;
+text-align: right;
+color: dimgray}
 
 
 @-webkit-keyframes mymove {
@@ -9,24 +12,25 @@ animation: mymove 10s infinite;}
     100%{background-color:white;}
 }
 
-.evry{top:10%;
-bottom:10%;
-left:10%;
-right:10%;
+.evry{top:0%;
+bottom:5%;
+left:0%;
+right:5%;
 position:absolute}
 
 #assign{
 position:absolute;
 display: inline-flex;
-height:600px;
+top:5%;
+height:50%;
 width:50%;
 }
 
 .content{background-color:peachpuff;border:10px;
-height:80%;
+height:100%;
 width:30%;
 padding:15px;
-margin:0% 5% 0% 5%;
+margin:0% 5% 0% 0%;
 text-align: center;
     text-decoration: none;font-family: sans-serif;}
 
@@ -34,24 +38,56 @@ text-align: center;
 height:100%;}
 
 .items {
-        height:600px;
-        width:50%;
+        height:95%;
+        width:40%;
         float:right;
-        position:absolute;
+       top:5%; position:absolute;
         left:50%;
           display: flex;
   flex-flow: column wrap;
 }
 .items .item {
-	 width: 25%;
-  height: 25%;
+	 width: 35%;
+  height: 15%;
   background-color: cadetblue;
   color:blue;
-  d
   padding:10px;
-  margin:0 1% 5% 0;
+  margin:0 1% 2% 0;
   text-align: center;
     text-decoration: none;font-family: sans-serif;}
 
-.items .item:hover{height:30%;
-width: 30%}
+.items .item:hover{height:20%;
+width: 20%}
+
+.items22 {
+        height:80%;
+        width:30%;
+      float:right;
+        position:absolute;
+        left:70%;
+        top:24%;
+          display: flex;
+  flex-flow: column wrap;
+}
+.items22 .item1 {
+	 width: 65%;
+  height: 15%;
+  background-color: cadetblue;
+  color:blue;
+  padding:10px;
+  margin:0 1% 2% 0;
+  text-align: center;
+    text-decoration: none;font-family: sans-serif;}
+
+.items22 .item1:hover{height:20%;
+width: 20%}
+
+p{color:mintcream;
+font-family:sans-serif;
+font-size:2em;
+position: absolute;
+top:60%;
+left:0%;
+width:40%;
+display:none;
+}
